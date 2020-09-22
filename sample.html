@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="index.html" method="POST">
+        <div>
+            <label>FirstName</label>
+        </div>
+        <div>
+            <input type=text name="firstname" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label>Email</label>
+        </div>
+        <div>
+            <input type="email" name="email" required>
+        </div>
+        <div>
+            <label>Password</label>
+        </div>
+        <div>
+            <input type="password" name="password" minlength="1" maxlength="3">
+        </div>
+        <div>
+            <label>Gender</label>
+        </div>
+        <!-- This is a comment-->
+        <div>
+            Female <input type="radio" name="gender" value="Female">
+            Male<input type="radio" name="gender" value="Male">
+        </div>
+        <div><label>States</label></div>
+        <div>
+            <select name="state" id="">
+                <option value="Kerala">Kerala</option>
+                <option value="TamilNadu">TamilNadu</option>
+                <option value="Goa">Goa</option>
+            </select>
+        </div>
+        <div> <label for="">Choose Your Course</label></div>
+        <div>
+            Java <input type="checkbox" name="course1" value="java"><br>
+            Python <input type="checkbox" name="course2" value="python"><br>
+
+        </div>
+        <div><label for="">DOB</label></div>
+        <div><input type="date" name="dob"></div>
+        <div><label >Age</label></div>
+        <div><input type="number" min="18" max="30" name="age"></div>
+        <input type="text" value="usercod107347387" readonly>
+
+        <input type="submit" value="save">
+
+    </form>
+
+
+
+</body>
+
+</html>
