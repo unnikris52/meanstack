@@ -1,0 +1,30 @@
+div{
+    background-color: grey;
+    width:100%;
+    height:200px
+}
+p{
+    color: indianred;
+    font-weight: bold;
+}
+.p1{
+    color:red
+}
+#p2{
+    color:indigo
+}
+.nav_link{
+background-color: brown;
+}
+.nav_link:hover{
+    background-color: blueviolet;
+}
+
+/* .demo{
+    background-color: cyan;
+}
+.demo:hover{
+    background-color: darkorchid;
+} */
+
+/* this is a comment*/
